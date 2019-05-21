@@ -29,4 +29,9 @@ num = 10
 tishi = '请输入 yes or no 测试她是否爱你:'
 zhaxin = '放弃吧她不爱你'
 waner = '系统故障,再来一次'
-func(num,tishi,zhaxin,waner)
+# func(num,tishi,zhaxin,waner)
+
+def print_hello(name, sex):
+    sex_dict = {1: u'先生', 2: u'女士'}
+    print('hello %s %s, welcome to python world!' %(name, sex_dict.get(sex, u'先生')))
+print_hello(sex = 1, name = 'wzy')
